@@ -1,0 +1,82 @@
+{
+  "wmape_val": 23.90892063638895,
+  "wmape_test": 22.24031107171467,
+  "mape_val": 51.86711345253619,
+  "mape_test": 48.51392230010351,
+  "mae_val": 5.10655630879469,
+  "mae_test": 5.8188746483936,
+  "rmse_val": 8.480660016951859,
+  "rmse_test": 9.771910740016029,
+  "n_train": 648013,
+  "n_val": 234580,
+  "n_test": 212248,
+  "n_features": 16,
+  "n_clues": 794,
+  "best_iteration": 161,
+  "feature_importance": [
+    {
+      "feature": "clues_id",
+      "importance": 2039
+    },
+    {
+      "feature": "lag_1",
+      "importance": 1187
+    },
+    {
+      "feature": "doy",
+      "importance": 923
+    },
+    {
+      "feature": "lag_28",
+      "importance": 768
+    },
+    {
+      "feature": "lag_7",
+      "importance": 758
+    },
+    {
+      "feature": "lag_14",
+      "importance": 755
+    },
+    {
+      "feature": "roll_7",
+      "importance": 608
+    },
+    {
+      "feature": "dow",
+      "importance": 573
+    },
+    {
+      "feature": "std_14",
+      "importance": 460
+    },
+    {
+      "feature": "roll_14",
+      "importance": 384
+    },
+    {
+      "feature": "lengthofday",
+      "importance": 342
+    },
+    {
+      "feature": "sf_msd",
+      "importance": 320
+    },
+    {
+      "feature": "roll_30",
+      "importance": 313
+    },
+    {
+      "feature": "mes",
+      "importance": 203
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 201
+    },
+    {
+      "feature": "year",
+      "importance": 148
+    }
+  ]
+}
